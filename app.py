@@ -158,6 +158,7 @@ def hello():
 # Run the app if this file is executed
 if __name__ == '__main__':
     app.run()
+
 #    if not os.environ.get("GEMINI_API_KEY"):
 #        raise RuntimeError("GEMINI_API_KEY environment variable is not set.")
 #    app.run(debug=False, host="0.0.0.0", port=5001)
